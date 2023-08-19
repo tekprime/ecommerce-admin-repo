@@ -5,7 +5,9 @@ import { redirect } from "next/navigation";
 export default async function SetupLayout({
   children
 }: {children: React.ReactNode}){
-  
+
+  // commit
+
   
   const {userId} = auth();
   
